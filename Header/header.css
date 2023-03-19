@@ -3,9 +3,10 @@
   min-height: 80px;
   max-height: 140px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
   font-family: var(--font_title);
-  padding-top:2% ;
+  padding-top:0.8% ;
   padding-left: 2%;
   padding-right: 2%;
 }
