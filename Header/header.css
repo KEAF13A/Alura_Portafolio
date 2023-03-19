@@ -1,10 +1,10 @@
 .header{
   width: 96%;
-  min-height: 50px;
-  max-height: 100px;
+  min-height: 80px;
+  max-height: 140px;
   display: flex;
   justify-content: space-between;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: var(--font_title);
   padding-top:2% ;
   padding-left: 2%;
   padding-right: 2%;
@@ -12,4 +12,5 @@
 
 .header__logo h1{ 
   font-size: 17px;
+  font-weight: 700;
 }

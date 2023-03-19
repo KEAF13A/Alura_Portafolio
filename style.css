@@ -1,5 +1,7 @@
 :root{
-  --font_title: 'Josefin Sans', sans-serif;
+  --font_title: 'Raleway', sans-serif;
+  --font_text:  'Raleway', sans-serif;;
+  --Color_text:#464646;
   --Color_blue_ligth: #EAF2FD;
   --Color_blue_strong:#2A7AE4;
   --Color_grey:#F5F5F5;

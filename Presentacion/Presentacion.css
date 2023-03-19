@@ -1,0 +1,29 @@
+.presentacion{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 85vh;
+    background-color: var(--Color_grey);
+}
+
+.presentacion__about{
+    width: 50%;
+    padding: 20px;
+}
+
+.presentacion__about h1{
+    font-family:var(--font_title);
+    color: var(--Color_text);
+    font-size: 50px;
+    text-align: center;
+}
+
+.presentacion__about-description{
+    font-family: var(--font_text);
+    color: var(--Color_text);
+    text-justify: auto;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 200;
+}
