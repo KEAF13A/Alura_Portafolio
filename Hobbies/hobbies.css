@@ -1,5 +1,7 @@
-.hobbies{
+.Hobbies{
     width: 100%;
+    max-width: 1600px;
+    margin: auto;
     height: 300px;
     background-color: var(--Color_grey);
     font-family: var(--font_text);

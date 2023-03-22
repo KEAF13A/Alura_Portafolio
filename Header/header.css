@@ -1,5 +1,7 @@
-.header{
+.Header{
   width: 96%;
+  max-width: 1600px;
+  margin: auto;
   min-height: 80px;
   max-height: 140px;
   display: flex;

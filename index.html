@@ -14,10 +14,14 @@
   <link rel="stylesheet" href="/Hobbies/hobbies.css">
   <link rel="stylesheet" href="/About/about.css">
   <link rel="stylesheet" href="/Skills/skills.css">
+  <link rel="stylesheet" href="/Formacion/formacion.css">
+  <link rel="stylesheet" href="/Experiencia/experiencia.css">
+  <link rel="stylesheet" href="/Contacto/Contacto.css">
+  <link rel="stylesheet" href="/Desarrollo/Desarrollo.css">
 </head>
 
 <body>
-  <header class="header">
+  <header class="Header">
     <div class="header__logo">
       <h1>Kevin Eduardo Ascencio de la Flor</h1>
     </div>
@@ -32,7 +36,7 @@
         </ul>
       </nav>
   </header>
-  <section class="presentacion">
+  <section class="Presentacion">
     <div class="presentacion__about">
       <h1>Hello... Soy Kevin Eduardo <br> Estudiante de Desarrollo web</h1>
       <article class="presentacion__about-description">
@@ -61,7 +65,7 @@ Actualmente, soy estudiante de ingeniería en Sistemas Computacionales, donde ac
       </p>
     </div>
   </section>
-  <section class="skills">
+  <section class="Skills">
       <div class="skills__container">
         <h1 class="skills__title">Skills</h1>
         <div class="skills__items">
@@ -91,7 +95,7 @@ Actualmente, soy estudiante de ingeniería en Sistemas Computacionales, donde ac
         </div>
       </div>
   </section>
-  <section class="hobbies">
+  <section class="Hobbies">
       <div class="hobbies__container">
           <h1 class="hobbies__title">Hobbies</h1>
           <div class="hobbies__items">
@@ -121,6 +125,121 @@ Actualmente, soy estudiante de ingeniería en Sistemas Computacionales, donde ac
             </div>
           </div>
       </div>
+  </section>
+
+  <section class="Formacion">
+      <div class="formacion__container">
+        <h1 class="formacion__title">Formación Académica</h1>
+        <div class="formacion__container-card">
+          <div class="formacion__card">
+            <div class="formacion__white">
+              <img src="/Images/liceo.svg" alt="Tecnico en Telecomunicaciones" class="card__imgs">
+            </div>
+            <h1 class="card__title_formacion">Tecnico en Telecomunicaciones</h1>
+            <p class="date__formacion">2018 - LAO</p>
+          </div>
+
+          <div class="formacion__card">
+            <div class="formacion__white">
+              <img src="/Images/Alura.svg" alt="Formación UX Design" class="card__imgs">
+            </div>
+            <h1 class="card__title_formacion">Formación UX Design</h1>
+            <p class="date__formacion">2019 - Alura</p>
+          </div>
+
+          <div class="formacion__card">
+            <div class="formacion__white">
+              <img src="/Images/Alura.svg" alt="Especialización en Front-End" class="card__imgs">
+            </div>
+            <h1 class="card__title_formacion">Especialización en Front-End</h1>
+            <p class="date__formacion">En Curso - Alura</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="Experiencia">
+    <div class="experiencia__container">
+      <h1 class="main__title">Experiencia Profesional</h1>
+      <div class="codigo__secreto">
+        <div class="main_img">
+          <img src="/Images/codigo_secreto.svg" alt="Codigo Secreto" class="proyect__img">
+        </div>
+        <div class="info">
+          <h1 class="title">Encriptador de texto</h1>
+          <p class="about">Challenge Alura Codificador</p>
+          <button class="repositorio"><a href="http://" target="_blank" rel="noopener noreferrer">Repositorio</a></button>
+          <button class="demo">Ver demo</button>
+        </div>
+      </div>
+      <div class="AsuRasho">
+          <div class="main_img">
+            <img src="/Images/AsuRasho.svg" alt="AsuRasho" class="proyect__img">
+          </div>
+          <div class="info">
+            <h1 class="title">Asu Rasho Ve</h1>
+            <p class="about">Proyecto Final</p>
+            <button class="repositorio"><a href="http://" target="_blank" rel="noopener noreferrer">Repositorio</a></button>
+            <button class="demo">Ver demo</button>
+          </div>
+      </div>
+      <div class="Encriptador">
+        <div class="main_img">
+          <img src="/Images/Encriptador.svg" alt="Encriptador de Texto" class="proyect__img">
+        </div>
+        <div class="info">
+          <h1 class="title">Encriptador de Texto</h1>
+          <p class="about">Challenge Oracle</p>
+          <button class="repositorio"><a href="http://" target="_blank" rel="noopener noreferrer">Repositorio</a></button>
+          <button class="demo">Ver demo</button>
+        </div>
+      </div>
+
+      <div class="Juego">
+        <div class="main_img">
+          <img src="/Images/Juego.svg" alt="Juego Creado con HTML..." class="proyect__img">
+        </div>
+        <div class="info">
+          <h1 class="title">Juego creado con HTML, CSS y JavaScript</h1>
+          <p class="about">Challenge Oracle</p>
+          <button class="repositorio"><a href="http://" target="_blank" rel="noopener noreferrer">Repositorio</a></button>
+          <button class="demo">Ver demo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Contacto">
+    <div class="contacto__container">
+      <div class="contacto__img">
+        <img src="Images/Contacto.svg" alt="Telefono" class="contacto__img_">
+      </div>
+      <div class="contacto__description">
+        <h1 class="contacto__title">Contacto</h1>
+        <p class="contacto__text">
+          ¿Quieres contactarme? <br>
+          Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
+        </p>
+      <div class="contacto__formulario">
+        <form action="script.js" method="get">
+
+            <input type="text" class="contacto__casillas" name="name" placeholder="Nombre" />
+
+            <input type="email" class="contacto__casillas" name="email" placeholder="E-mail"/>
+
+            <input type="text" class="contacto__casillas" name="asunto" placeholder="Asunto"/>
+
+            <input type="text" class="contacto__casillas mensaje" name="Mensaje" placeholder="Mensaje" size="40"/>
+
+            <button type="submit" class="Enviar">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+  <section class="Desarrollo">
+    <h1>Desarrollado por Kevin Eduardo Ascencio de la Flor <br> 2023</h1>
   </section>
 </body>
 </html>

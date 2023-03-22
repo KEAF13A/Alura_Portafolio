@@ -1,0 +1,107 @@
+.Experiencia{
+    width: 100%;
+    max-width: 1600px;
+    margin: 40px auto;
+    height: 1650px;
+}
+
+.experiencia__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    font-family: var(--font_text);
+}
+
+.main__title{
+    font-size: 30px;
+}
+
+.codigo__secreto{
+    width: 95%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main_img{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyect__img{
+    width: 90%;
+}
+
+
+.info .title{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.info .about{
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.repositorio{
+    background-color: var(--Color_grey);
+    border: .8px solid var(--Color_blue_strong);
+    color: var(--Color_blue_strong);
+    text-decoration: none;
+    border-radius: 1px;
+    width: 90px;
+    height: 50px;
+    margin-right: 10px;
+    list-style-type: none;
+    transition: 600ms ease-in-out;
+}
+
+.repositorio:hover{
+    transform: scale(1.2);
+}
+
+.demo{
+    background-color: var(--Color_blue_strong);
+    border: .8px solid var(--Color_blue_strong);
+    color: var(--Color_grey);
+    text-decoration: none;
+    border-radius: 1px;
+    width: 90px;
+    height: 50px;
+    transition: 600ms ease-in-out;
+}
+
+.demo:hover{
+    transform: scale(1.2);
+}
+
+.AsuRasho{
+    width: 95%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.Encriptador{
+    width: 95%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.Juego{
+    width: 95%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}

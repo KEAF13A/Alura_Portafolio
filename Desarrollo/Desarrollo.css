@@ -1,0 +1,15 @@
+.Desarrollo{
+    width:100%;
+    max-width: 1600px;
+    margin: auto;
+    height: 90px;
+    background-color: var(--Color_cards);
+    font-family: var(--font_text);
+    text-align: center;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
