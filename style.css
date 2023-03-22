@@ -1,0 +1,44 @@
+:root{
+  --font_title: 'Raleway', sans-serif;
+  --font_text:  'Raleway', sans-serif;;
+  --Color_text:#464646;
+  --Color_blue_ligth: #EAF2FD;
+  --Color_blue_strong:#2A7AE4;
+  --Color_grey:#F5F5F5;
+  --Color_cards:#FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--Color_grey);
+  margin: auto;
+}
+
+ul, li {
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav a{
+  transition: 0.5s ease-in-out;
+}
+
+.conexiones_container a{
+  transition: 0.5s ease-in-out;
+}
+
+.conexiones_container a:hover{
+  color: #f5f5f5;
+  transform: scale(.9);
+  text-shadow: 1px 1px 2px #464646;
+}
+
+.nav a:hover{
+  color: #f5f5f5;
+  transform: scale(.9);
+  text-shadow: 1px 1px 2px #464646;
+}

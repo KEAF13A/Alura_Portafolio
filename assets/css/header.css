@@ -1,0 +1,19 @@
+.Header{
+  width: 96%;
+  max-width: 1600px;
+  margin: auto;
+  min-height: 80px;
+  max-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: var(--font_title);
+  padding-top:0.8% ;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.header__logo h1{ 
+  font-size: 17px;
+  font-weight: 700;
+}

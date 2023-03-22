@@ -1,0 +1,20 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__main{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__item{
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.nav__item a{
+  text-decoration: none;
+  color:#464646 ;
+}
